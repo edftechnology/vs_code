@@ -10,7 +10,7 @@
 # ## _Abstract_
 # 
 # _In this document are contained the main commands and settings to set up/install/usae the `VS Code` on `Linux Ubuntu`._
-
+# 
 # ## Descrição [2]
 # 
 # ### `VS Code (VS Code)`
@@ -25,14 +25,14 @@
 # 
 # O `PyLance` é uma extensão para o `VS Code` que oferece suporte avançado ao `Python`, proporcionando uma experiência de codificação mais eficiente. Baseado no `Pyright`, um servidor de linguagem desenvolvido pela `Microsoft`, o `PyLance` fornece recursos como autocompletar (_IntelliSense_), verificação de tipos estática, navegação de código e documentação _inline_, ajudando os desenvolvedores a escrever código mais preciso e sem erros. Ele é amplamente utilizado para melhorar a produtividade ao trabalhar com projetos `Python`, oferecendo ferramentas poderosas de análise e sugestões em tempo real.
 # 
-
+# 
 # ## 1. Como configurar/instalar/usar o `VS Code` no `Linux Ubuntu` [1]
 # 
 # Para configurar/instalar/usar o `VS Code` no `Linux Ubuntu`, você pode seguir estas etapas:
 # 
 # 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
 # 
-
+# 
 # 2. Certifique-se de que seu sistema esteja limpo e atualizado.
 # 
 #     2.1 Limpar o `cache` do gerenciador de pacotes `apt`. Especificamente, ele remove todos os arquivos de pacotes (`.deb`) baixados pelo `apt` e armazenados em `/var/cache/apt/archives/`. Digite o seguinte comando:
@@ -82,7 +82,7 @@
 #     ```bash
 #     sudo apt full-upgrade -y
 #     ```
-
+# 
 # 3. **Navegue até o diretório onde o arquivo `.deb` está localizado:** Use o comando cd para navegar até o diretório onde o arquivo `.deb` está localizado. Por exemplo, se o arquivo `.deb` estiver na sua pasta `Downloads`, você pode usar o seguinte comando:
 # 
 #     ```bash
@@ -113,7 +113,7 @@
 # 
 # Isso deve permitir que você instale um arquivo `.deb` no seu sistema Ubuntu. Lembre-se de que os arquivos .deb são pacotes de software específicos para distribuições baseadas no Debian, como o Ubuntu, e geralmente são seguros de usar, especialmente se você os obtiver de fontes confiáveis. No entanto, sempre esteja ciente da origem dos arquivos .deb que você baixa e evite fontes **NÃO** confiáveis para garantir a segurança do seu sistema.
 # 
-
+# 
 # ## 1.1 Código completo para configurar/instalar/usar o `VS Code` no `Linux Ubuntu` 
 # 
 # Para configurar/instalar/usar o `VS Code` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
@@ -129,7 +129,7 @@
 #     ```
 #     NÂO há.
 #     ```
-
+# 
 # ## 2. Configurar a variável de ambiente no `VS Code`
 # 
 # Para configurar o `VS Code` para informar ao sistema operacional que você está em modo de depuração e definir a variável de ambiente `DEBUG_MODE`, você pode seguir os seguintes passos:
@@ -166,7 +166,7 @@
 # 
 # 4. **Salvar e iniciar a depuração**: Salve as alterações no arquivo `launch.json`. Inicie a depuração clicando no botão de execução de depuração (ícone de triângulo verde) na aba `Run and Debug` ou pressionando `F5`.
 # 
-
+# 
 # ### 2.2 Localização do arquivo `launch.json`
 # 
 # o arquivo `launch.json` é armazenado em uma pasta específica dentro do seu projeto no `VS Code`. Ele faz parte da configuração do seu ambiente de depuração. Aqui estão detalhes sobre onde você pode encontrar e como ele é organizado:
@@ -182,7 +182,7 @@
 #     ```bash
 #     sudo cp /home/edenedfsls/Documents/Downloads/unix/ubuntu/ide/vs_code/vs_code/docs/.vscode/launch.json /caminho/para/seu/projeto/.vscode/
 #     ``` 
-
+# 
 # ### 2.3 Código `Python` para verificar a variável de ambiente
 # 
 # Dentro do seu código `Python`, você pode verificar se a variável `DEBUG_MODE` está definida corretamente assim:
@@ -206,12 +206,12 @@
 # - **Recarregar o `VS Code`**: Às vezes, é útil reiniciar o `VS Code` para garantir que todas as configurações e variáveis de ambiente sejam aplicadas corretamente.
 # 
 # Seguindo esses passos, você deverá ser capaz de configurar o `VS Code` para informar ao sistema operacional que você está em modo de depuração e definir a variável `DEBUG_MODE` conforme necessário.
-
+# 
 # ## 3. Configurar o `PEP 8` no `VS Code`
 # 
 # Antes de configurar o `PEP 8` no `VS Code` é recomendável conhecer as opções de arquivo `settings.json`, como segue:
 # 
-
+# 
 # ### 3.1 Opções de arquivo `settings.json`
 # 
 # Há três opções para editar o `settings.json`. Vou explicar quando usar cada uma delas:
@@ -241,7 +241,7 @@
 # * **Se você quer aplicar as configurações apenas para o projeto atual**: Escolha `Preferences: Open Workspace Settings (JSON)`.
 # 
 # Normalmente, a opção mais usada é `Open User Settings (JSON)`, pois assim o comportamento será consistente em todos os projetos que você abrir.
-
+# 
 # ### 3.2 Configurar o(s) _linters_ (`flake8` ou `pylint`) no `VS Code`
 # 
 # Para garantir que o `VS Code` considere o `PEP 8` (o guia de estilo para Python) ao editar seus códigos, você pode configurar algumas extensões e ajustes nas configurações do editor. Aqui estão os passos para configurar isso:
@@ -292,7 +292,7 @@
 # **Conclusão**
 # 
 # Com essas configurações, o `VS Code` considerará o `PEP 8` ao editar códigos `Python`, ajudando a manter um estilo de código consistente e legível. Essas ferramentas **NÃO** apenas ajudam a detectar problemas de estilo, mas também promovem boas práticas de codificação.
-
+# 
 # ### 3.3 Comprimento Máximo da Linha
 # 
 # #### 3.3.1 Descrição [3]
@@ -307,7 +307,7 @@
 # 
 # Algumas equipes preferem um comprimento de linha maior. Para código mantido exclusivamente — ou principalmente — por uma equipe que entrou em acordo sobre isso, é aceitável aumentar o limite para até **99 caracteres**, desde que os comentários e *docstrings* ainda sejam limitados a **72 caracteres**.
 # 
-
+# 
 # #### 3.3.2 Como configurar o limite visual de caracteres no `VS Code`
 # 
 # 1. **Abra a Paleta de Comandos (`Ctrl+Shift+P`), digite **“Reload Window”** e pressione `Enter`**.
@@ -338,7 +338,7 @@
 # O `VS Code` mostrará uma linha vertical cinza (ou da cor do seu tema) na coluna especificada. Isso 
 # **NÃO** bloqueia a digitação além do limite, mas ajuda visualmente a manter o padrão.
 # 
-
+# 
 # ## 4. Extensões
 # 
 # ### 4.1 Extensões recomendadas
@@ -371,7 +371,7 @@
 # | `vscjava.vscode-gradle`                       | Suporte completo para projetos Gradle em Java no VS Code, com construção e depuração. |
 # | `vscjava.vscode-maven`                        | Suporte ao Apache Maven para gerenciamento de dependências e construção de projetos Java no VS Code. |
 # 
-
+# 
 # ### 4.2 Instalar uma extensão
 # 
 # Para instalar uma extensão no `VS Code`, siga os passos abaixo:
@@ -403,7 +403,7 @@
 #     6.1 Embora a maioria das extensões seja ativada automaticamente, em alguns casos, pode ser necessário reiniciar o `VS Code` para que todas as funcionalidades da extensão sejam corretamente carregadas.
 # 
 # Após esses passos, a extensão estará pronta para uso no seu `VS Code`!
-
+# 
 # ### 4.3 Consultar extensões instaladas através de linha de comando
 # 
 # 1. Você pode verificar as extensões instaladas no `VS Code` através da linha de comando. Para isso, use o seguinte comando no `Terminal Emulator` do `VS Code`:
@@ -420,7 +420,7 @@
 #     
 #     Isso mostrará todas as extensões junto com suas versões atuais.
 # 
-
+# 
 # ### 4.3 Desinstalar uma extensão
 # 
 # Para desinstalar uma extensão no `VS Code`, siga os passos abaixo:
@@ -457,7 +457,7 @@
 #    ~/.vscode/extensions/
 #    ```
 #    
-
+# 
 # #### 4.3.1 Verificar se existe versões antigas do `jupyter` instaladas em paralelo
 # 
 # Você ainda tem várias versões antigas do extension host do Jupyter instaladas em paralelo e **NÃO** removidas, por isso aparecem tantos diretórios `ms-toolsai.jupyter-*`. O `VS Code` **NÃO** apaga automaticamente versões antigas quando você atualiza uma extensão, ele cria um novo diretório a cada versão.
@@ -490,7 +490,7 @@
 #     Após remover os diretórios antigos, abra o Command Palette (`Ctrl+Shift+P`) e execute `Reload Window` para reiniciar o Extension Host e efetivamente encerrar os servidores LSP órfãos.
 # 
 # Dessa forma você mantém apenas o que realmente usa e reduz significativamente o consumo de memória.
-
+# 
 # ### 5. Habilitar o `PyLance`
 # 
 # Para habilitar o `PyLance` no `VS Code`, siga os passos abaixo:
@@ -521,7 +521,7 @@
 # 
 # Com isso, o `PyLance` estará ativado e você poderá aproveitar os recursos avançados como autocompletar, análise de tipos estática, navegação de código e outros recursos de produtividade no seu projeto `Python`.
 # 
-
+# 
 # ## 6. Atalhos para visualizar objetos
 # 
 # Essa funcionalidade é separada em algumas ferramentas, e depende da linguagem que você está usando (ex: `Python`, `C#`, `JavaScript` etc.). Para `Python`, por exemplo, e para outras linguagens também, você tem:
@@ -535,7 +535,7 @@
 # | **IntelliSense**              | Autocompleta e sugere funções, propriedades, métodos                      | `Ctrl+Espaço` (ou automático conforme digita)             |
 # | **Extensões específicas**     | Instalar extensões como *Python*, *Pylance*, *IntelliCode* etc.          | Pela aba de extensões no `VS Code` (`Ctrl+Shift+X`)         |
 # 
-
+# 
 # ## Referências
 # 
 # [1] OPENAI. ***Instalar arquivo .sh no ubuntu.*** Disponível em: <https://chat.openai.com/c/073320a8-7cc5-4590-9da0-d2bcc7093c88> (texto adaptado). Acessado em: 17/10/2023 16:05.
@@ -543,4 +543,5 @@
 # [2] OPENAI. ***VS code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 14/11/2023 09:33.
 # 
 # [3] PYTHON TEAM. ***Pep 8 – style guide for python code***. Disponível em: <https://peps.python.org/pep-0008/> (texto adaptado). Acessado em: 06/06/2025 10:02.
+# 
 # 
