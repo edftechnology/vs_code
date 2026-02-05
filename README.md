@@ -27,7 +27,11 @@ O `PyLance` é uma extensão para o `VS Code` que oferece suporte avançado ao `
 
 Para configurar/instalar/usar o `VS Code` no `Linux Ubuntu`, você pode seguir estas etapas:
 
-1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando: `Ctrl + Alt + T`
+1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
 
 
 2. Certifique-se de que seu sistema esteja limpo e atualizado.
@@ -108,10 +112,10 @@ O comando acima tentará instalar automaticamente as dependências necessárias 
     code
     ```
 
-Isso deve permitir que você instale um arquivo `.deb` no seu sistema Ubuntu. Lembre-se de que os arquivos .deb são pacotes de software específicos para distribuições baseadas no Debian, como o Ubuntu, e geralmente são seguros de usar, especialmente se você os obtiver de fontes confiáveis. No entanto, sempre esteja ciente da origem dos arquivos .deb que você baixa e evite fontes **NÃO** confiáveis para garantir a segurança do seu sistema.
+Isso deve permitir que você instale um arquivo `.deb` no seu sistema `Linux Ubuntu`. Lembre-se de que os arquivos .deb são pacotes de software específicos para distribuições baseadas no Debian, como o `Linux Ubuntu`, e geralmente são seguros de usar, especialmente se você os obtiver de fontes confiáveis. No entanto, sempre esteja ciente da origem dos arquivos .deb que você baixa e evite fontes **NÃO** confiáveis para garantir a segurança do seu sistema.
 
 
-## 1.1 Código completo para configurar/instalar/usar o `VS Code` no `Linux Ubuntu` 
+### 1.1 Código completo para configurar/instalar/usar o `VS Code` no `Linux Ubuntu` 
 
 Para configurar/instalar/usar o `VS Code` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 
@@ -123,9 +127,58 @@ Para configurar/instalar/usar o `VS Code` no `Linux Ubuntu` sem precisar digitar
 
 2. Digite o seguinte comando e pressione `Enter`:
 
-    ```
+    ```bash
     NÂO há.
     ```
+
+### 1.2 Sincronizar suas configurações do `VS Code`
+
+#### 1.2.1 **Opção recomendada: conta `Microsoft`**
+
+1. Abra o `VS Code`
+
+2. Clique no ícone de `perfil` no canto inferior esquerdo
+(normalmente aparece sua inicial ou um ícone de usuário).
+
+3. No menu que abrir, clique em:
+
+```bash
+Sign in to Sync Settings…
+```
+
+4. Escolha Sign `in with Microsoft`
+
+5. Uma janela do navegador vai abrir, faça _login_ com sua conta `Microsoft`.
+
+6. Após autenticar, o `VS Code` perguntará o que você deseja sincronizar. Geralmente é seguro deixar tudo marcado:
+
+- Settings (configurações)
+
+- Keybindings (atalhos)
+
+- Extensions (extensões)
+
+- Snippets
+
+- UI State
+
+6.1 Clique em `OK` para confirmar.
+
+
+
+#### 1.2.2 Como confirmar que a sincronização está ativa
+
+No canto inferior esquerdo, você deve ver algo como:
+
+```bash
+Settings Sync: On
+```
+
+Se quiser verificar manualmente:
+
+1. Clique novamente no ícone do perfil
+
+2. Se aparecer `Turn off Settings Sync`, significa que já está funcionando.
 
 ## 2. Configurar a variável de ambiente no `VS Code`
 
@@ -535,7 +588,7 @@ Essa funcionalidade é separada em algumas ferramentas, e depende da linguagem q
 
 ## Referências
 
-[1] OPENAI. ***Instalar arquivo .sh no ubuntu.*** Disponível em: <https://chat.openai.com/c/073320a8-7cc5-4590-9da0-d2bcc7093c88> (texto adaptado). Acessado em: 17/10/2023 16:05.
+[1] OPENAI. ***Instalar o `vs code` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chat.openai.com/c/073320a8-7cc5-4590-9da0-d2bcc7093c88> (texto adaptado). Acessado em: 17/10/2023 16:05.
 
 [2] OPENAI. ***VS code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 14/11/2023 09:33.
 
