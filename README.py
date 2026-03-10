@@ -30,7 +30,7 @@
 # 
 # Para configurar/instalar/usar o `VS Code` no `Linux Ubuntu`, você pode seguir estas etapas:
 # 
-# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+# 1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 # 
 #     ```bash
 #     Ctrl + Alt + T
@@ -122,7 +122,7 @@
 # 
 # Para configurar/instalar/usar o `VS Code` no `Linux Ubuntu` sem precisar digitar linha por linha, você pode seguir estas etapas:
 # 
-# 1. Abra o `Terminal Emulator`. Você pode fazer isso pressionando:
+# 1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
 # 
 #     ```bash
 #     Ctrl + Alt + T
