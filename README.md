@@ -395,31 +395,31 @@ O `VS Code` mostrará uma linha vertical cinza (ou da cor do seu tema) na coluna
 
 | Extensão                                      | Descrição |
 |-----------------------------------------------|-----------|
-| `github.copilot`                              | Assistente de IA da GitHub que sugere trechos de código para aumentar a produtividade. |
-| `github.copilot-chat`                         | Extensão do GitHub Copilot que permite a interação por chat para sugestões de código. |
-| `gitlab.gitlab-workflow`                      | Ferramentas para integração com GitLab e fluxo de trabalho direto no VS Code. |
-| `james-yu.latex-workshop`                     | Extensão para facilitar a edição de documentos LaTeX no VS Code, com visualização de PDF. |
-| `mechatroner.rainbow-csv`                     | Ferramenta para visualizar e editar arquivos CSV com formatação colorida no VS Code. |
-| `ms-ceintl.vscode-language-pack-pt-br`        | Pacote de idioma para o VS Code em português do Brasil. |
-| `ms-python.debugpy`                           | Ferramenta para depuração de código Python no VS Code. |
+| `github.copilot`                              | Assistente de IA da `GitHub` que sugere trechos de código para aumentar a produtividade. |
+| `github.copilot-chat`                         | Extensão do `GitHub Copilot` que permite a interação por chat para sugestões de código. |
+| `gitlab.gitlab-workflow`                      | Ferramentas para integração com `GitLab` e fluxo de trabalho direto no `VS Code`. |
+| `james-yu.latex-workshop`                     | Extensão para facilitar a edição de documentos LaTeX no `VS Code`, com visualização de PDF. |
+| `mechatroner.rainbow-csv`                     | Ferramenta para visualizar e editar arquivos CSV com formatação colorida no `VS Code`. |
+| `ms-ceintl.vscode-language-pack-pt-br`        | Pacote de idioma para o `VS Code` em português do Brasil. |
+| `ms-python.debugpy`                           | Ferramenta para depuração de código Python no `VS Code`. |
 | `ms-python.isort`                             | Extensão para organizar automaticamente importações em código Python. |
-| `ms-python.python`                            | Extensão oficial do Python para o VS Code, oferecendo recursos como execução, depuração e linting. |
-| `ms-python.vscode-pylance`                    | Extensão para autocompletar e análise de tipo no Python, baseada no PyLance. |
-| `ms-toolsai.datawrangler`                    | Ferramenta para manipulação e análise de dados diretamente no VS Code. |
-| `ms-toolsai.jupyter`                          | Suporte ao Jupyter Notebooks no VS Code, para trabalhar com notebooks interativos de Python. |
-| `ms-toolsai.jupyter-keymap`                   | Mapeamento de teclas específico para trabalhar com Jupyter Notebooks no VS Code. |
-| `ms-toolsai.jupyter-renderers`                | Extensão para renderizar saídas de células em Jupyter Notebooks no VS Code. |
-| `ms-toolsai.vscode-jupyter-cell-tags`         | Permite adicionar tags às células de Jupyter Notebooks no VS Code para melhorar a organização. |
-| `ms-toolsai.vscode-jupyter-slideshow`         | Ferramenta para criar apresentações interativas com Jupyter Notebooks no VS Code. |
-| `ms-vscode.cmake-tools`                       | Ferramenta para suporte ao CMake, permitindo configurar e compilar projetos no VS Code. |
+| `ms-python.python`                            | Extensão oficial do Python para o `VS Code`, oferecendo recursos como execução, depuração e linting. |
+| `ms-python.vscode-pylance`                    | Extensão para autocompletar e análise de tipo no Python, baseada no `PyLance`. |
+| `ms-toolsai.datawrangler`                    | Ferramenta para manipulação e análise de dados diretamente no `VS Code`. |
+| `ms-toolsai.jupyter`                          | Suporte ao `Jupyter Notebooks` no `VS Code`, para trabalhar com notebooks interativos de Python. |
+| `ms-toolsai.jupyter-keymap`                   | Mapeamento de teclas específico para trabalhar com `Jupyter Notebooks` no `VS Code`. |
+| `ms-toolsai.jupyter-renderers`                | Extensão para renderizar saídas de células em `Jupyter Notebooks` no `VS Code`. |
+| `ms-toolsai.vscode-jupyter-cell-tags`         | Permite adicionar tags às células de `Jupyter Notebooks` no `VS Code` para melhorar a organização. |
+| `ms-toolsai.vscode-jupyter-slideshow`         | Ferramenta para criar apresentações interativas com `Jupyter Notebooks` no `VS Code`. |
+| `ms-vscode.cmake-tools`                       | Ferramenta para suporte ao `CMake`, permitindo configurar e compilar projetos no `VS Code`. |
 | `ms-vscode.makefile-tools`                    | Ferramenta para suportar projetos que utilizam Makefiles, permitindo compilação e execução de tarefas. |
-| `ms-vsliveshare.vsliveshare`                  | Permite a colaboração em tempo real com outros desenvolvedores dentro do VS Code, compartilhando o ambiente de trabalho. |
-| `redhat.vscode-xml`                           | Extensão para trabalhar com arquivos XML no VS Code, oferecendo validação e formatação. |
-| `twxs.cmake`                                  | Extensão para facilitar o uso de CMake no VS Code, permitindo criar e configurar projetos C++ facilmente. |
+| `ms-vsliveshare.vsliveshare`                  | Permite a colaboração em tempo real com outros desenvolvedores dentro do `VS Code`, compartilhando o ambiente de trabalho. |
+| `redhat.vscode-xml`                           | Extensão para trabalhar com arquivos `XML` no `VS Code`, oferecendo validação e formatação. |
+| `twxs.cmake`                                  | Extensão para facilitar o uso de `CMake` no `VS Code`, permitindo criar e configurar projetos `C++` facilmente. |
 | `visualstudioexptteam.intellicode-api-usage-examples` | Exemplos de uso da API IntelliCode, proporcionando sugestões de código baseadas em inteligência artificial. |
 | `visualstudioexptteam.vscodeintellicode`      | Extensão que oferece sugestões inteligentes de código, melhorando a produtividade com IA. |
-| `vscjava.vscode-gradle`                       | Suporte completo para projetos Gradle em Java no VS Code, com construção e depuração. |
-| `vscjava.vscode-maven`                        | Suporte ao Apache Maven para gerenciamento de dependências e construção de projetos Java no VS Code. |
+| `vscjava.vscode-gradle`                       | Suporte completo para projetos `Gradle` em `Java` no `VS Code`, com construção e depuração. |
+| `vscjava.vscode-maven`                        | Suporte ao Apache Maven para gerenciamento de dependências e construção de projetos `Java` no `VS Code`. |
 
 
 ### 4.2 Instalar uma extensão
@@ -586,6 +586,152 @@ Essa funcionalidade é separada em algumas ferramentas, e depende da linguagem q
 | **Extensões específicas**     | Instalar extensões como *Python*, *Pylance*, *IntelliCode* etc.          | Pela aba de extensões no `VS Code` (`Ctrl+Shift+X`)         |
 
 
+## 7. _Troubleshooting_: erro: problema ao colar do `clipboard` para o `vs code`
+
+Isso acontece com certa frequência no `Visual Studio Code`, principalmente no `Linux`. Quando aparece o **ícone de “processando”** e o texto não cola, você pode tentar resolver com um desses passos:
+
+### 7.1 Instalar suporte completo ao `clipboard`
+
+1. Abrir o `Terminal Emulator`. Você pode fazer isso pressionando:
+
+    ```bash
+    Ctrl + Alt + T
+    ```
+
+2. Instalar suporte completo ao `clipboard`:
+
+    ```bash
+    sudo apt install xclip xsel wl-clipboard -y
+    ```
+
+    Isso evita muitos travamentos.
+
+### 7.2 Desativar o processamento automático do `clipboard` no `settings.json`
+
+A solução mais eficaz é desativar esse processamento automático no settings.json.
+
+1. **Abrir o arquivo `settings.json`**: No `VS Code`:
+
+    ```bash
+    Ctrl + Shift + P
+    ```
+
+    Digite:
+
+    ```bash
+    Preferences: Open User Settings (JSON)
+    ```
+
+2. **Adicionar estas configurações**: Inclua no arquivo:
+
+    ```json
+    {
+        "editor.formatOnPaste": false,
+        "editor.copyWithSyntaxHighlighting": false,
+        "editor.linkedEditing": false
+    }
+    ```
+
+    O que cada uma faz:
+
+    `editor.formatOnPaste`
+
+    - impede que o `VS Code` tente **formatar o texto automaticamente**
+
+    - isso é uma causa comum do _spinner_ infinito
+
+    `editor.copyWithSyntaxHighlighting`
+
+    - evita copiar metadados de formatação
+
+    - reduz problemas com `clipboard`
+
+    `editor.linkedEditing`
+
+    - desativa edição vinculada automática (muito usada em HTML/Markdown)
+
+3. **Configuração adicional (recomendada no `Linux`)**: Se você usa **Jupyter notebooks no `VS Code`**, adicione também:
+
+    ```json
+    "notebook.formatOnSave.enabled": false,
+    "notebook.output.textLineLimit": 0
+    ```
+
+    Isso evita travamentos ao colar conteúdo grande em `.ipynb`.
+
+    O que cada um faz:
+
+    `"notebook.formatOnSave.enabled": false`
+
+    - Desativa a formatação automática do notebook ao salvar.
+
+    `"notebook.output.textLineLimit": 0`
+
+    - Define quantas linhas de saída de texto o VS Code mostra em células de notebook.
+
+4. **Reiniciar o `VS Code`**: Depois execute:
+
+    ```bash
+    Ctrl + Shift + P
+    Reload Window
+    ```
+
+## 8. Comandos para abrir o `vs code` pelo `Terminal Emulator`
+
+### 8.1 Abrir o `VS Code` em uma pasta específica pelo `Terminal Emulator`
+
+1. Para abrir o `VS Code` em uma pasta específica pelo `Terminal Emulator`, use o comando:
+
+    ```bash
+    code /caminho/da/pasta
+    ```
+
+### 8.2 Métodos mais usados
+
+
+#### 8.2.1 Abrir a pasta atual
+
+1. Se você já estiver dentro da pasta no `Terminal Emulator`:
+
+    ```bash
+    code .
+    ```
+
+    O `.` significa diretório atual.
+
+
+
+#### 8.2.2 Abrir um arquivo específico
+
+1. Abrir um arquivo específico:
+
+    ```bash
+    code arquivo.py
+    ```
+
+
+#### 8.2.3 Abrir `VS Code` reutilizando a janela atual
+
+1. Abrir `VS Code` reutilizando a janela atual
+
+    ```bash
+    code -r .
+    ```
+
+    - `-r`: _reuse window_.
+
+
+
+#### 8.2.4 Abrir `VS Code` em nova janela
+
+1. Abrir `VS Code` em nova janela
+
+    ```bash
+    code -n .
+    ```
+
+    - `-n`: _new window_.
+
 ## Referências
 
 [1] OPENAI. ***Instalar o `vs code` no `linux ubuntu` pelo `terminal emulator`.*** Disponível em: <https://chat.openai.com/c/073320a8-7cc5-4590-9da0-d2bcc7093c88> (texto adaptado). Acessado em: 17/10/2023 16:05.
@@ -593,4 +739,7 @@ Essa funcionalidade é separada em algumas ferramentas, e depende da linguagem q
 [2] OPENAI. ***VS code: editor popular.*** Disponível em: <https://chat.openai.com/c/b640a25d-f8e3-4922-8a3b-ed74a2657e42> (texto adaptado). Acessado em: 14/11/2023 09:33.
 
 [3] PYTHON TEAM. ***Pep 8 – style guide for python code***. Disponível em: <https://peps.python.org/pep-0008/> (texto adaptado). Acessado em: 06/06/2025 10:02.
+
+[4] OPENAI. ***Troubleshooting: erro: problema ao colar do `clipboard` para o `vs code`.*** Disponível em: <https://chatgpt.com/g/g-p-684976fd7ba0819187fcbc3f7c1784eb-troubleshooting-erros/c/69af1e0b-b958-832a-8e05-0b54f35acc6e> (texto adaptado). Acessado em: 10/03/2026 11:19.
+
 

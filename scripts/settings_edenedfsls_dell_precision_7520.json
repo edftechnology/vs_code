@@ -1,0 +1,65 @@
+{
+    "workbench.colorTheme": "Visual Studio Light",
+    "workbench.preferredDarkColorTheme": "Default Dark+",
+
+    "files.autoSave": "afterDelay",
+    "files.insertFinalNewline": true,
+
+    "editor.fontSize": 16,
+    "editor.rulers": [
+        72,
+        79,
+        100
+    ],
+    "editor.wordWrap": "on",
+
+    "editor.formatOnPaste": false,
+    "editor.copyWithSyntaxHighlighting": false,
+    "editor.linkedEditing": false,
+
+    "git.autofetch": true,
+    "git.openRepositoryInParentFolders": "never",
+
+    "makefile.configureOnOpen": true,
+
+    "terminal.integrated.commandsToSkipShell": [
+        "matlab.interrupt"
+    ],
+
+    "application.shellEnvironmentResolutionTimeout": 100,
+
+    "security.workspace.trust.untrustedFiles": "open",
+
+    "interactiveWindow.executeWithShiftEnter": true,
+
+    "notebook.enabled": true,
+    "notebook.lineNumbers": "on",
+    "notebook.formatOnSave.enabled": false,
+    "notebook.output.textLineLimit": 0,
+
+    "notebook.cellToolbarLocation": {
+        "default": "right",
+        "jupyter-notebook": "left"
+    },
+
+    "workbench.editorAssociations": {
+        "*.ipynb": "jupyter-notebook",
+        "*.copilotmd": "vscode.markdown.preview.editor",
+        "*.py": "default"
+    },
+
+    "[oraclesql]": {
+        "editor.suggest.showSnippets": true,
+        "editor.quickSuggestions": {
+            "comments": "on",
+            "strings": "on",
+            "other": "on"
+        }
+    },
+
+    "sqldeveloper.sqlHistory.historyLimit": 500,
+
+    "workbench.settings.applyToAllProfiles": [],
+    "chat.viewSessions.orientation": "stacked",
+    "workbench.secondarySideBar.defaultVisibility": "hidden"
+}
